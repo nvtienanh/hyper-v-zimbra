@@ -40,3 +40,8 @@ Add-NetNatStaticMapping -ExternalIPAddress "0.0.0.0/24" -ExternalPort 443 -Proto
 Add-NetNatStaticMapping -ExternalIPAddress "0.0.0.0/24" -ExternalPort 7071 -Protocol TCP -InternalIPAddress "10.10.10.11" -InternalPort 7071 -NatName ZimbraNatNet
 Add-NetNatStaticMapping -ExternalIPAddress "0.0.0.0/24" -ExternalPort 25 -Protocol TCP -InternalIPAddress "10.10.10.11" -InternalPort 25 -NatName ZimbraNatNet
 ```
+
+## Demo
+
+- [Microsoft Hyper-V Server: Create a Zimbra mail server](https://youtu.be/VgifWoXsaQg)
+
